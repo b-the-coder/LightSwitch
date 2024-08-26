@@ -1,0 +1,26 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0; /* Optional: Add a background color */
+    flex-direction: column; /* Stack elements vertically */
+}
+
+div, button {
+    margin: 10px;
+     /* Add some space around the elements */
+}
+
+#title{
+    font-size: 48px;
+}
+#switch{
+    font-size: 24px;
+}
+#timesClicked {
+    font-weight: bold;
+    color: blue;
+}
